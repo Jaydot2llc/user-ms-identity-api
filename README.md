@@ -22,8 +22,8 @@ Set environment variables.
 export RESOURCE_GROUP="ms-identity-containerapps"
 export LOCATION="canadacentral"
 export ENVIRONMENT="env-ms-identity-containerapps"
-export API_NAME="ms-identity-api"
-export JAR_FILE_PATH_AND_NAME="./target/ms-identity-spring-boot-webapp-0.0.1-SNAPSHOT.jar"
+export API_NAME="user-ms-identity-api"
+export JAR_FILE_PATH_AND_NAME="./build/libs/user-ms-identity-api-0.0.1-SNAPSHOT.jar"
 ```
 
 Create a resource group.
