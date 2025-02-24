@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: user-ms-identity-api
+
+
+# which routes to restrict to authenticated users only (see SecurityConfig.java):
+# enter String array (comma-separated) or just one route.
+# e.g. authenticated: /route1, /route2, /route3
+app:
+  protect:
+    authenticated: /token_details
